@@ -14,6 +14,7 @@ function Box(props) {
       <p>Box {props.id}</p>
       <p>Contador Hijo: {count}</p>
       <p>Diferencia con mi hermano: {count - props.brotherCount} </p>
+      <p>Diferencia con mi segundo hermano: {count - props.brotherCount2}</p>
     </div>
   );
 }

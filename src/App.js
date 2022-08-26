@@ -24,9 +24,9 @@ const [count3, updateCount3] = useState(0);
   return (
     <div className="App">
       <header className="App-header">
-        <Box id={1} brotherCount={count2} boxClicked={boxClicked}/>
-        <Box id={2} brotherCount={count1} boxClicked={boxClicked}/>
-        <Box id={3} brotherCount={count3} boxClicked={boxClicked}/>
+        <Box id={1} brotherCount={count2} brotherCount2={count3} boxClicked={boxClicked}/> 
+        <Box id={2} brotherCount={count1} brotherCount2={count3} boxClicked={boxClicked}/>
+        <Box id={3} brotherCount={count1} brotherCount2={count2} boxClicked={boxClicked}/>
         <br/>
         <p>Contador Padre: {count}</p>
       </header>
